@@ -126,6 +126,7 @@ body {
  }
  
  .point {
+     opacity: 1;
      display: table-cell;
      position: relative;
      width: 33.3%;
