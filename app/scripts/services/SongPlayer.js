@@ -4,7 +4,7 @@
          
         var currentAlbum = Fixtures.getAlbum();
         var getSongIndex = function(song) {
-     return currentAlbum.songs.indexOf(song);
+        return currentAlbum.songs.indexOf(song);
  };
          
          /** var currentSong = null;
@@ -68,6 +68,7 @@
     
         return SongPlayer;
     }
+    
  
     angular
          .module('blocJams')
